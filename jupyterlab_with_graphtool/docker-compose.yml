@@ -3,7 +3,7 @@ version: '3'
 
 services:
   jupyterlab:
-      container_name: acknow
+      container_name: container_name_jupyterlab_gt
       build:
         context: .
         dockerfile: Dockerfile

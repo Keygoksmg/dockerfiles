@@ -3,7 +3,7 @@ version: '3'
 
 services:
   jupyterlab:
-      container_name: cname
+      container_name: container_name_jupyterlab
       build:
         context: .
         dockerfile: Dockerfile
