@@ -5,7 +5,7 @@
 (if you want, you can change directory for volume in docker-compsoe.yml)
 ```
 cd <your working dir>
-git clone https://github.com/Keygoksmg/dockerfiles
+$ git clone https://github.com/Keygoksmg/dockerfiles
 ```
 
 2. 
@@ -17,7 +17,7 @@ e.g. $ cd  jupyterlab
 3.
 run the following and open localhost:<defined port> on browser
 ```
-docker-compose up
+$ docker-compose up
 ```
 
 # Type of docker files
