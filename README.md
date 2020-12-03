@@ -11,8 +11,7 @@ $ git clone https://github.com/Keygoksmg/dockerfiles
 2. 
 move to one of the directory of <b>dockerfiles</b>
 ```
-e.g.
-$ cd  jupyterlab
+e.g. $ cd  jupyterlab
 ```
 
 3.
