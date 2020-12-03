@@ -4,14 +4,15 @@
 1. clone this repository to the dir in which you want to volume files
 (if you want, you can change directory for volume in docker-compsoe.yml)
 ```
-cd <your working dir>
+$ cd <your working dir>
 $ git clone https://github.com/Keygoksmg/dockerfiles
 ```
 
 2. 
 move to one of the directory of <b>dockerfiles</b>
 ```
-e.g. $ cd  jupyterlab
+e.g.
+$ cd  jupyterlab
 ```
 
 3.
