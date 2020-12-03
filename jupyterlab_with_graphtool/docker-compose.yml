@@ -10,7 +10,7 @@ services:
       image: jupyterlab
       # コンテナの/jobyan/work以下をホストの./workにおいてデータ永続化する。
       volumes:
-         - ".:/home/jovyan/work"
+         - "../../:/home/jovyan/work"
       # (ホストポート:コンテナポート)
       ports:
         - 8888:8888
