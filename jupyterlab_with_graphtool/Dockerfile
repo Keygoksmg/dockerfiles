@@ -37,3 +37,12 @@ RUN sudo apt-get install -y libgtk-3-dev
 RUN sudo apt install -y libcairo2-dev pkg-config python3-dev && \
 	pip3 install pycairo
 
+
+
+# jupyterlab setting
+# make directory
+RUN mkdir -p .jupyter/lab/user-settings/@jupyterlab/notebook-extension/ \
+    && mkdir -p .jupyter/lab/user-settings/@jupyterlab/apputils-extension/
+# copy setting files
+COPY jupyterlab_setting/tracker.jupyterlab-settings .jupyter/lab/user-settings/@jupyterlab/notebook-extension/
+COPY jupyterlab_setting/themes.jupyterlab-settings .jupyter/lab/user-settings/@jupyterlab/apputils-extension/
